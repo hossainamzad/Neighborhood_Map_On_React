@@ -39,12 +39,12 @@ export default class SideBar extends Component {
 
     render(){
         return (
-            <div className="sideBar">
+            <aside className="sideBar">
                 <input type={"search"} id={"search"}  placeholder={"Filter Venues"} onChange={this.changehandler}/>
-                <VenueList {...this.props} 
+                <VenueList {...this.props}
                     venues={this.filterVenueHandler()}
                     handleListitemClick={this.props.handleListitemClick}/>
-            </div>
+            </aside>
         );
     }
 }

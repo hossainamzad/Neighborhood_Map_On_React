@@ -15,6 +15,9 @@
     4) React
     5) Foursquare API
 
+## Service worker
+    * The service worker works properly in the production mode, not in the development mode
+    * Visited pages are rendered, thanks to Service Worker, when there is no network access
 
 
 
